@@ -1,24 +1,36 @@
 {
-    "name": "adamwathan/eloquent-oauth-l5",
-    "description": "Stupid simple OAuth authentication with Laravel and Eloquent",
-    "authors": [
+  "name": "adamwathan/eloquent-oauth-l5",
+  "description": "Stupid simple OAuth authentication with Laravel and Eloquent",
+  "authors": [
     {
-        "name": "Adam Wathan",
-        "email": "adam.wathan@gmail.com"
-    }
-    ],
-    "license": "MIT",
-    "require": {
-        "php": ">=5.5.0",
-        "adamwathan/eloquent-oauth": "dev-master",
-        "guzzlehttp/guzzle": "^6.2.1"
+      "name": "Adam Wathan",
+      "email": "adam.wathan@gmail.com"
     },
-    "autoload": {
-        "psr-4": {
-            "AdamWathan\\EloquentOAuthL5\\": "src/"
-        }
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^4.8"
+    {
+      "name": "Markus Koehler",
+      "email": "markus.koehler@rockwellcollins.com",
+      "role": "Software Engineer"
     }
+  ],
+  "license": "MIT",
+  "require": {
+    "php": ">=5.5.0",
+    "markuskoehler/eloquent-oauth": "dev-master",
+    "guzzlehttp/guzzle": "^6.2.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "AdamWathan\\EloquentOAuthL5\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.8"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "AdamWathan\\EloquentOAuthL5\\EloquentOAuthServiceProvider"
+      ]
+    }
+  }
 }
