@@ -15,7 +15,7 @@
   "license": "MIT",
   "require": {
     "php": ">=5.5.0",
-    "markuskoehler/eloquent-oauth": "dev-master",
+    "adamwathan/eloquent-oauth": "dev-fork",
     "guzzlehttp/guzzle": "^6.2.1"
   },
   "autoload": {
@@ -32,5 +32,11 @@
         "AdamWathan\\EloquentOAuthL5\\EloquentOAuthServiceProvider"
       ]
     }
-  }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/markuskoehler/eloquent-oauth"
+    }
+  ]
 }
