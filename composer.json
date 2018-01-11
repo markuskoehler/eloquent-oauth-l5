@@ -15,7 +15,7 @@
   "license": "MIT",
   "require": {
     "php": ">=5.5.0",
-    "adamwathan/eloquent-oauth": "dev-fork",
+    "adamwathan/eloquent-oauth": "dev-fork@dev",
     "guzzlehttp/guzzle": "^6.2.1"
   },
   "autoload": {
