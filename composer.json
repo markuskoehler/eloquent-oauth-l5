@@ -32,5 +32,11 @@
         "AdamWathan\\EloquentOAuthL5\\EloquentOAuthServiceProvider"
       ]
     }
-  }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/markuskoehler/eloquent-oauth.git"
+    }
+  ]
 }
